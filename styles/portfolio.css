@@ -23,7 +23,7 @@ header{
   background-color: #FFF8F3;
   background: url("../images/developer.png"), url("../images/header_bg.png"),#FFF8F3;
   background-repeat: no-repeat;
-  background-position: top left , bottom right;
+  background-position: 23px 38px, bottom right;
   padding-top: 50px;
 }
 nav{
@@ -55,6 +55,7 @@ nav .menu a{
   padding: 18px 35px;
   border-radius: 5px;
   font-size: 20px;
+  color: #FFF8F3;
   font-weight: bold;
   cursor: pointer;
 }
@@ -110,7 +111,7 @@ nav .menu a{
 }
 
 /*About start*/
-#about{
+#about, #skill, #resume{
   padding-top: 130px;
 }
 #about .about-container{
@@ -135,9 +136,7 @@ nav .menu a{
   font-size: 18px;
 }
 
-#skill{
-  padding-top: 130px;
-}
+
 #skill .skill-container{
   width: 71%;
   max-width: 1140px;
@@ -167,4 +166,91 @@ nav .menu a{
   font-size: 16px;
   color: #757575;
   line-height: 28px;
+}
+
+#resume .resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+
+.resume-container .section-title{
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.resume-container hr{
+  margin: 30px 0;
+}
+
+.resume-card {
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.resume-card .card-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #474747;
+}
+.resume-card .card-info{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575;
+}
+.resume-card .card-text{
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #757575;
+}
+
+.text-item{
+  text-align: center;
+}
+ footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px;
+ }
+ footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+ }
+
+ .footer-container .social{
+  max-width: 562px;
+ }
+
+ .footer-container h2{
+  color: #181818;
+  font-size: 35px;
+  margin-bottom: 20px;
+ }
+
+  .footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+.footer-container .icons a{
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"] , .footer-container form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
 }
