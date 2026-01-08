@@ -58,6 +58,22 @@ nav .menu a{
   font-weight: bold;
   cursor: pointer;
 }
+
+.section-heading{
+  max-width: 827px;
+  text-align: center;
+}
+.section-heading h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.section-heading p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
+
 /* header design complete*/
 /* banner design start*/
 #banner{
@@ -90,5 +106,31 @@ nav .menu a{
 #banner .baner-image img{
   max-width: 585px;
   vertical-align: middle;
+}
+
+/*About start*/
+#about{
+  padding-top: 130px;
+}
+#about .about-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 130px 230px;
+}
+
+#about .about-container .about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-card p{
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+.about-info .info-card h4 {
+  font-size: 18px;
 }
 
